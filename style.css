@@ -1,0 +1,156 @@
+
+/*  */
+/* CSS Styling Reset */
+/*  */
+/*  */
+/*  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*  */
+/*  */
+/* Project Style Starts Here */
+/*  */
+
+:root {
+    /* Main Color */
+    --yellow: hsl(47, 88%, 63%);
+    /* Neutral Colors */
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+body {
+    background-color: var(--yellow);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 2rem;
+    border: 1px solid var(--Black);
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem var(--Black);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--White);
+    max-width: 24rem;
+    transition: 0.5s;
+}
+
+.blog-cover {
+    min-width: 100%;
+    border-radius: 1rem;
+}
+
+.tag {
+    background-color: var(--yellow);
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.tag p {
+    font-family: Figtree, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--Black);
+}
+
+.date {
+    font-family: Figtree, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--Black);
+}
+
+h1 {
+    font-family: Figtree, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--Black);
+}
+
+p {
+    font-family: Figtree, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: var(--Grey);
+    line-height: 1.5;
+    display: inline-block;
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.avatar {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 9999px;
+    object-fit: cover;
+}
+
+figure p {
+    font-family: Figtree, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--Black);
+}
+
+main:hover {
+    cursor: pointer;
+
+    h1 {
+        color: var(--yellow);
+    }
+
+    box-shadow: 2rem 2rem;
+}
