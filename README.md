@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-I tried to use a bit more semantic html on this project. Had to look up how to do the hover state to affect multiple elements when hovering over the whole <main> element, also working on transition to control the change in color of <h1> and the shadow placement was really cool!
+I tried to use a bit more semantic html on this project. Had to look up how to do the hover state to affect multiple elements when hovering over the whole main element, also working on transition to control the change in color of h1 and the shadow placement was really cool!
 
 ```css
 main:hover {
