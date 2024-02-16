@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of project](./screenshot.jpg)
+![Screenshot of project](./screenshot.png)
 
 ### Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/FernJBatista/Blog-card)
+- Live Site URL: [Live Site](https://fernjbatista.github.io/Blog-card/)
 
 ## My process
 
